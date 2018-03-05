@@ -87,8 +87,6 @@ alias zshconfig="mate ~/.zshrc"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
-source /Users/boboray/google-cloud-sdk/completion.zsh.inc
-source /Users/boboray/google-cloud-sdk/path.zsh.inc
 # For zsh syntax-highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 

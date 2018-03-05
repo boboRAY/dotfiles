@@ -1,12 +1,9 @@
 set cursorline
-syntax enable
 set number
 set ignorecase
 set confirm
 set wrap
 set encoding=utf-8
-
-" 搜尋不分大小寫
 set ic
 
 " turn off beep sound
@@ -15,17 +12,14 @@ set noeb
 " hightlight current char
 set cursorline
 
-" share clipboard with system
-set clipboard=unnamed
-
-syntax on
-set nocompatible
+filetype indent on
+syntax enable
 set ai
+set tabstop=4
+set shiftwidth=4
+set ruler
 set expandtab
-set tabstop=2
-set softtabstop=4
-set smarttab
-set smartindent
+set backspace=2
 
 " highlight seraching word
 set hlsearch
